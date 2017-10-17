@@ -1,5 +1,5 @@
 #!/bin/sh
-UNITY_OPTIONS="-batchmode -quit -force-opengl -nographics"
+UNITY_OPTIONS="-batchmode -quit -force-opengl -nographics -silent-crashes"
 
 E_NOARGS=85
 if [ -z "$1" ]
